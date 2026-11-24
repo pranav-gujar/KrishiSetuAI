@@ -1,0 +1,30 @@
+{
+  "vision_pathology_classifier": {
+    "test_samples": 1000,
+    "decision_tree_baseline": {
+      "accuracy": 1.0,
+      "f1_weighted": 1.0
+    },
+    "random_forest": {
+      "accuracy": 1.0,
+      "f1_weighted": 1.0
+    },
+    "krishisetu_hist_gbm": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_weighted": 1.0
+    }
+  },
+  "mandi_price_forecasting": {
+    "test_samples": 625,
+    "linear_ridge_baseline": {
+      "r2_score": 0.9838,
+      "mae_inr_per_quintal": 80.4
+    },
+    "krishisetu_gradient_boosting": {
+      "r2_score": 0.993,
+      "mae_inr_per_quintal": 55.56
+    }
+  }
+}
